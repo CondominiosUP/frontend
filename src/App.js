@@ -1,10 +1,10 @@
 import "./scss/App.scss";
-import SearchBar from "./components/SearchBar";
+import LabelForm from "./components/LabelForm";
 
 function App() {
   return (
     <>
-      <SearchBar />
+      <LabelForm />
     </>
   );
 }
