@@ -1,10 +1,10 @@
 import "./scss/App.scss";
-import ColumnTrello from "./components/ColumnTrello";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
-      <ColumnTrello />
+      <Header />
     </>
   );
 }

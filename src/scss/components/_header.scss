@@ -1,0 +1,44 @@
+.Container {
+  width: 144.0rem;
+  height: 16.4rem;
+  &__title{
+    color: $Colour-dark-blue;
+    width: 36.8rem;
+    height: 4.8rem;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 1rem 0 0 7rem;
+  }
+}
+
+.Header{
+  width: 100%;
+  border-bottom: 1px solid $Colour-orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 7rem;
+  &__logo{
+    width: 14.5rem;
+    height: 6.2rem;
+
+  }
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  &__listItem{
+    width: 15.5rem;
+    height: 6.1rem;
+    font-size: 28px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 6rem;
+    color: $Colour-clear-blue;
+
+  }
+}
