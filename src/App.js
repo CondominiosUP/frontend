@@ -1,10 +1,10 @@
-import SuccessMessage from "./components/SuccessMessage";
 import "./scss/App.scss";
+import ColumnTrello from "./components/ColumnTrello";
 
 function App() {
   return (
     <>
-      <SuccessMessage />
+      <ColumnTrello />
     </>
   );
 }

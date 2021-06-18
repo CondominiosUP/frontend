@@ -1,0 +1,19 @@
+.Container{
+  width: 24.7rem;
+  height: 64.9rem;
+  &__Title{
+    width: 16rem;
+    height: 3.8rem;
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 3.7rem;
+    color: $Colour-dark-blue;
+  }
+  &__DetailsSpace{
+    border: 1px solid $Colour-orange;
+    width: 24.7rem;
+    height: 61.2rem;
+  
+  }
+}
+
