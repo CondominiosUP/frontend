@@ -1,13 +1,11 @@
-import Header from "./components/Footer";
-import Footer from "./components/Header";
-
+import SuccessMessage from "./components/SuccessMessage";
+import "./scss/App.scss";
 
 function App() {
   return (
-    <div>
-    <Header/>
-    <Footer/>
-    </div>
+    <>
+      <SuccessMessage />
+    </>
   );
 }
 
