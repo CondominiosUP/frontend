@@ -1,0 +1,17 @@
+/* Colours */
+$Colour-orange: #FB8500;
+$Colour-white: #fff;
+$Colour-dark-blue: #023047;
+$Colour-clear-blue: #8ECAE6;
+$Gradient-orange-clearblue: linear-gradient(90deg, rgba(251,133,0,1) 0%, rgba(142,202,230,1) 100%);;
+
+
+/* Fonts sizing and family */
+$Font-family: "Roboto";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: $Font-family;
+}
