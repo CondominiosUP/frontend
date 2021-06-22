@@ -1,6 +1,4 @@
-import React from 'react'
-
-const Suggest = () => {
+function Suggest () {
     return(
         <div className="container">
             <div>

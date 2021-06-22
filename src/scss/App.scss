@@ -1,0 +1,12 @@
+@import "./components/globals.scss";
+@import "./components/successMessage.scss";
+@import "./components/columnTrello.scss";
+@import "./components/header.scss";
+@import "./components/searchBar.scss";
+@import "./components/labelForm.scss";
+@import "./components/footer.scss";
+
+html {
+	// font-size: 62.5%;
+	font-size: 65.5%; // 1rem === 10px;
+}

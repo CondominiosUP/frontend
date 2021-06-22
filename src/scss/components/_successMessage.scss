@@ -1,0 +1,15 @@
+.Button{
+  color: $Colour-orange;
+  background-color: $Colour-white;
+  border: 1px solid $Colour-orange;
+  width: 70.6rem;
+  height: 17.2rem;
+  font-weight: bold;
+  font-size: 3.2rem;
+  line-height: 3.7rem;
+}
+
+
+.Button:hover{
+  cursor: pointer;
+}

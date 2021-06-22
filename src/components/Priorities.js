@@ -1,6 +1,4 @@
-import React from 'react'
-
-const Priorities = () => {
+function Priorities () {
     return(
         <div className="container">
             <div>
