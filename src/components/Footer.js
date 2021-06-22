@@ -1,9 +1,9 @@
 function Footer() {
-    return (
-      <div>
-      <h1>Footer</h1>
-      </div>
-    );
-  }
-  
-  export default Footer;
+  return (
+    <footer className="footer">
+      <p>Condominios 2021</p>
+    </footer>
+  );
+}
+
+export default Footer;

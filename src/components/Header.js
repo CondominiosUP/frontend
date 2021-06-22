@@ -13,7 +13,7 @@ function Header(props) {
           <li className="Header__listItem">Reportar falla</li>
         </ul>
       </header>
-      <p className="Container__title">Bienvenido {props.name}!</p>
+      <p className="Container__title">Bienvenido Administrador!</p>
       </div>
     );
   }
