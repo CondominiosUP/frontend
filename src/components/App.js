@@ -1,13 +1,15 @@
 import Header from "./Header";
 import Footer from "./Footer";
-import Suggest_from "./House-info";
+import Suggest from './Suggest';
+import Priorities from "./Priorities";
 
 function App() {
   return (
     <div>
     <Header/>
     <Footer/>
-    <House_info/>
+    <Suggest />
+    <Priorities />
     </div>
   );
 }
