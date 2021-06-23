@@ -1,0 +1,48 @@
+.Container_failure{
+    width: 652px;
+    height: 466px;
+    margin: 50px auto;
+  }
+  
+  .title-failure {
+    font-family: $Font-family;
+    font-size: 20px;
+    color: $Colour-dark-blue;
+    margin-bottom: 16px;
+    font-weight: normal;
+  }
+  
+  .input-failure {
+    width: 652px;
+    height: 41px;
+    border: solid 1px $Colour-orange;
+    border-radius: 5px;
+    color: $Colour-clear-blue;
+    font-family: $Font-family;
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .text-details {
+    width: 652px;
+    height: 238px;
+    border: solid 1px $Colour-orange;
+    border-radius: 5px;
+    color: $Colour-clear-blue;
+    font-family: $Font-family;
+    font-size: 20px;
+  }
+  .button {
+      margin-top: 60px;
+      border: none;
+      outline: none;
+      width: 323px;
+      height: 51px;
+      background: $Colour-orange;
+      color: $Colour-dark-blue;
+      font-family: $Font-family;
+      font-size: 14px;
+      border-radius: 50px;
+      margin-top: 46px;
+  }
+  
