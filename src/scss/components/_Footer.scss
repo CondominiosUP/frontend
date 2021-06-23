@@ -2,6 +2,7 @@ $color-footer-letter: #ffff;
 $color-footer: #298ff5;
 
 .footer{
+    bottom: 0;
     background-color: $color-footer;
     display: flex;
     justify-content: center;
