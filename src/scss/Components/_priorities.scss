@@ -1,3 +1,72 @@
-.container{
-   background: blue;
+.Space{
+   background: #c4c4c4;
+   opacity: 0,5;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 1440px;
+   height: 900px;
+   align-items: center;
+     &_card{
+     background: white;
+     padding: 32px;
+     width: 719px;
+     height: 425px;
+     top: 229px;
+     left: 370px;
+     border: 1px solid $Colour-orange;
+     }
+     &_head{
+       display: flex;
+     }
+    
+     &_title{
+       margin-top: 10px;
+       color: $Colour-dark-blue;
+       font-size: 14px;
+     }
+     &_record{
+     padding: 10px;
+     width: 434px;
+     height: 41px;
+     top:294px;
+     left: 403px;
+     border-radius: 5px;
+     border: 1px solid $Colour-orange;
+     }
+     &_name_check{
+       padding: 10px;
+       margin-left: 30px;
+       font-size: 20px;
+     }
+     &_select{
+       margin:10px;
+       width: 29px;
+       height: 20px;
+       border: none;
+       color: white;
+       background: $Colour-orange;
+     }
+     &_public{
+        align-items: flex-end;
+     }
+     &_close{
+       background: $Colour-orange;
+       width: 60px;
+       height: 25px;
+       top: 300px;
+       left: 921px;
+       border:none;
+       border-radius: 50px;
+       font-size: 12px;
+       margin-top: 45px;
+     }
+     &_text{
+       border-bottom: none;
+       width: 652px;
+       height: 238px;
+       padding: 10px;
+       border-radius: 5px;
+       border: 1px solid $Colour-orange;
+     }
 }
