@@ -1,4 +1,4 @@
-function Priori_Admin () {
+function PrioriUser () {
     return(
         <div className="Tanks">
             <div className="Tanks_block">
@@ -7,7 +7,6 @@ function Priori_Admin () {
                 <button className="Tanks_button"><h3>Nombre</h3><h3>Detalles...</h3></button>
                 <button className="Tanks_button"><h4>Nombre</h4><h4>Detalles...</h4></button>
               </div>
-                <button className="Tanks_create">Crear Card</button>
             </div>
             <div className="Tanks_block">
                <h3 className="Tanks_title">En proceso</h3>
@@ -21,4 +20,4 @@ function Priori_Admin () {
     )
 }
 
-export default Priori_Admin;
+export default PrioriUser;
