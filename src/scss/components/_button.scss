@@ -1,0 +1,14 @@
+.main-button {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    background: $Colour-orange;
+    color: $Colour-dark-blue;
+    width: 320px;
+    height: 51px;
+    border-radius: 50px;
+    font-family: $Font-family;
+    font-size: 20px;
+    margin-top: 55px;
+}
