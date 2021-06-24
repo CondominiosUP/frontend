@@ -40,11 +40,6 @@ function FormUpdate() {
                 </p>
 
                 <p>
-                    <label for="celular">Celular</label>
-                    <input className="input__celular" type="text" name="celular" id="celular" placeholder="Celular" autocomplete="celular" required />
-                </p>
-
-                <p>
                     <label for="telefono">Teléfono</label>
                     <input className="input__telefono" type="text" name="telefono" id="telefono" placeholder="Número teléfono" autocomplete="telefono" required />
                 </p>
