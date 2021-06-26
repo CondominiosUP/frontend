@@ -1,6 +1,6 @@
 import React from 'react'
 
-function FormUpdate() {
+function FormUser() {
     return (
         <div className="container-form">
             <form className="container-update">
@@ -50,12 +50,9 @@ function FormUpdate() {
                 </p>
 
             </form>
-            <div className="container-button">
-                <input className="form-button" type="button" value="Agregar Registro" ></input>
-            </div>
         </div>
 
     )
 }
 
-export default FormUpdate
+export default FormUser

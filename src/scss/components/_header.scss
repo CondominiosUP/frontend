@@ -9,8 +9,8 @@
     width: 36.8rem;
     height: 4.8rem;
     font-weight: bold;
-    font-size: 32px;
-    margin: 2rem 0 0 7rem;
+    font-size: 30px;
+    margin: 1.5rem 0 0 7rem;
   }
 }
 
@@ -43,5 +43,8 @@
     margin-left: 6rem;
     color: $Colour-clear-blue;
   }
-  
+
+  a{ color: $Colour-clear-blue}
+  a:link { text-decoration:none; } a:visited { text-decoration:none; }
+  a:hover { color: $Colour-clear-blue;}
 }

@@ -12,9 +12,10 @@ function App() {
   return (
     <>
       <Header />
-      <LabelForm />
-      <Button />
+      {/* <LabelForm /> */}
+      {/* <Button /> */}
       <Footer />
+      <UpdateUser/>
     </>
   );
 }
