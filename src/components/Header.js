@@ -18,7 +18,7 @@ function Header(props) {
             </Link>
           </li>
           <li className="Header__listItem">
-            <Link to="/ingresosegresos">
+            <Link to="/prioridadUsuario">
               Prioridades y mejoras
             </Link>
           </li>
