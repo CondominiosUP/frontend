@@ -1,0 +1,36 @@
+.Tanks{
+    height: 777px;
+    display: flex;
+    justify-content: center;
+    gap: 93px;
+    &_content{
+        border: 1px solid $Colour-orange;
+        width: 247px;
+        height: 531px;
+        top: 221px;
+        left: 257px;
+    }
+    &_title{
+        font-family: $Font-family; 
+        color: $Colour-dark-blue;  
+        font-size: 24px;
+    }
+    &_button{      
+      background: $Colour-orange;
+      margin: 10px;
+      width: 207px;
+      height: 122px;
+      top: 241px;
+      left: 277px;
+      border:none;
+      border-radius: 20px;
+      }
+    &_create{
+        margin-top: 25px;
+        background: $Colour-orange;
+        width: 246px;
+        height: 51px;
+        top: 77px;
+        border-radius: 50px;
+    }
+}
