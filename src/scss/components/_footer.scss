@@ -1,0 +1,17 @@
+$color-footer-letter: #ffff;
+$color-footer: #298ff5;
+
+.footer{
+    bottom: 0;
+    background-color: $color-footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3.3rem;
+    p{
+      color: $color-footer-letter;
+    }
+  }
