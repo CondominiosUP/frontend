@@ -1,22 +1,31 @@
 import React from 'react'
 import logo from "../img/logoDarkBlue.png";
 import logoHome from "../img/logoHome.png";
+import { Link } from "react-router-dom";
 
 function Home() {
     return (
         <div>
             <section className="HeaderHome">
-                <img className="Header__logo" src={logo} alt="Logo Condominios" />
-                <p className="Header__title">Nuestros Servicios</p>
+                <Link to="/">
+                   <img className="Header__logo" src={logo} alt="Logo Condominios" />
+                </Link>
+                <Link>
+                   <p className="Header__title">Nuestros Servicios</p>
+                </Link>            
             </section>
             <section className="ContainerHome">
                 <img className="Home__logohome" src={logoHome} alt="LogoHome Condominios" />
-                <div className="Home__titleleft">
-                    <p>¿Eres administrador del condominio ?</p>
-                </div>
+                <Link className="Home_link" to="login">
+                  <div className="Home__titleleft">
+                      <p>¿Eres administrador del condominio ?</p>
+                  </div>
+                  </Link>
+                  <Link className="Home_link" to="login">                              
                 <div className="Home__titleright">
                     <p>¿Eres administrador del condominio ?</p>
                 </div>
+                </Link>
 
             </section>
             <section className="DetailsHome">
