@@ -1,6 +1,7 @@
 import React from 'react'
 import FormUser from './FormUser'
 
+
 function UpdateUser() {
     return (
         <div>
