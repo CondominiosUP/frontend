@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo from "../img/logoOrange.png"
 import Input from './Input';
+import { naxios } from '../../src/Utilities';
 
 //import Button from './Button';
 
@@ -27,6 +28,9 @@ const Login = () => {
         let account = { user, password }
         if(account) {
             console.log('account:', account)
+            naxios.post('https://cb9e26a7474b.ngrok.io/v1/login/')
+                .then( (data) => {console.log(data)} )
+                .catch( (err) => {console.log(err)} )
         }
     }
 
