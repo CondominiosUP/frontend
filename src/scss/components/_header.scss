@@ -24,6 +24,7 @@
   &__logo{
     width: 14.5rem;
     height: 6.2rem;
+    cursor: pointer;
 
   }
   &__list{
@@ -46,5 +47,6 @@
 
   a{ color: $Colour-clear-blue}
   a:link { text-decoration:none; } a:visited { text-decoration:none; }
-  a:hover { color: $Colour-clear-blue;}
+  a:hover { color: black; font-weight: bold;
+    font-size: 30px;}
 }
