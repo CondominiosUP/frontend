@@ -1,15 +1,15 @@
 import React from 'react'
-import Header from './Header'
+import HeaderAdmin from './HeaderAdmin'
 import Footer from './Footer'
 
-function Layout({children}) {
+function LayoutAdmin({children}) {
     return (
         <div>
-            <Header />
+            <HeaderAdmin />
             {children}
             <Footer />
         </div>
     )
 }
 
-export default Layout;
+export default LayoutAdmin;
