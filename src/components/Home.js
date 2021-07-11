@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from "../img/logoDarkBlue.png";
 import logoHome from "../img/logoHome.png";
+import { Link } from "react-router-dom";
 
 function Home() {
     return (
@@ -12,37 +13,37 @@ function Home() {
             <section className="ContainerHome">
                 <img className="Home__logohome" src={logoHome} alt="LogoHome Condominios" />
                 <div className="Home__titleleft">
-                    <p>¿Eres administrador del condominio ?</p>
+                    <p><Link to="/Login">¿Eres administrador del condominio ?</Link></p>
                 </div>
                 <div className="Home__titleright">
-                    <p>¿Eres administrador del condominio ?</p>
+                    <p><Link to="/Login">¿Eres habitante del <br /> condominio ?</Link></p>
                 </div>
-
             </section>
+            <h2>Nuestros Servicios</h2>
             <section className="DetailsHome">
                 <div className="Details__left">
-                <h1>Cómo administrador de condominio:</h1>
-                <ul>
-                    <li>Puedes registrar casas o apartamentos nuevos</li>
-                    <li>Puedes ver la información de cada casa o apartamento</li>
-                    <li>Puedes registrar los ingresos y egresos </li>
-                    <li>Puedes actualizar los rubros los ingresos yegresos</li>
-                    <li>Puedes generar un informe financiero de los ingresos y egresos mensual </li>
-                    <li>Puedes generar listas de prioridades ymejoras para el condominio</li>
-                    <li>Puedes ver las sugerencias y reportes de fallas enviadas por parte de los habitantes</li>
-                </ul>
+                    <h1>Cómo administrador de condominio:</h1>
+                    <ul>
+                        <li>Puedes registrar casas o apartamentos nuevos</li>
+                        <li>Puedes ver la información de cada casa o apartamento</li>
+                        <li>Puedes registrar los ingresos y egresos </li>
+                        <li>Puedes actualizar los rubros los ingresos yegresos</li>
+                        <li>Puedes generar un informe financiero de los ingresos y egresos mensual </li>
+                        <li>Puedes generar listas de prioridades ymejoras para el condominio</li>
+                        <li>Puedes ver las sugerencias y reportes de fallas enviadas por parte de los habitantes</li>
+                    </ul>
                 </div>
 
                 <div className="Details__right">
-                <h1>Cómo habitante de condominio:</h1>
+                    <h1>Cómo habitante de condominio:</h1>
 
-                <ul>
-                    <li>Puedes actualizar la información de la casa o apartamento</li>
-                    <li>Puedes ver el informe financiero mensual del condominio</li>
-                    <li>Puedes ver las prioridades y lasmejoras hechas al condominio</li>
-                    <li>Puedes enviar sugerencias al Administrador</li>
-                    <li>Puedes reportar fallos del condominio al Administrador</li>
-                </ul>
+                    <ul>
+                        <li>Puedes actualizar la información de la casa o apartamento</li>
+                        <li>Puedes ver el informe financiero mensual del condominio</li>
+                        <li>Puedes ver las prioridades y lasmejoras hechas al condominio</li>
+                        <li>Puedes enviar sugerencias al Administrador</li>
+                        <li>Puedes reportar fallos del condominio al Administrador</li>
+                    </ul>
                 </div>
             </section>
         </div>
