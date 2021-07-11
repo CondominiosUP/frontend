@@ -17,7 +17,7 @@ function App() {
     return (
         <div>
             <BrowserRouter>
-                <Layout>
+                {/*<Layout> */}
                 <Switch>
                     <Route exact path="/registrar" component={RegisterAdmin}/>
                     <Route exact path="/actualizar" component={UpdateUser}/>
@@ -29,7 +29,7 @@ function App() {
                     <Route exact path="/"component={Home}/>
                     <Route component={PageNotFound}/>
                 </Switch>
-                </Layout>
+                {/*</Layout>*/}
             </BrowserRouter>
         </div>
     )
