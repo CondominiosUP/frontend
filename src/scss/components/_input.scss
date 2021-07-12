@@ -1,0 +1,21 @@
+.regular-style{
+    border: none;
+    border-bottom: 1px solid $Colour-orange;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: $Colour-clear-blue;
+    font-family: $Font-family;
+    font-size: 14px;
+}
+
+// .login-error input[type="text"], .login-box input[type="password"] {
+//     border: none;
+//     border-bottom: 1px solid red;
+//     background: rgb(155, 94, 94);
+//     outline: none;
+//     height: 40px;
+//     //color: red;
+//     font-family: $Font-family;
+//     font-size: 14px;
+// }

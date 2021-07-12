@@ -1,7 +1,7 @@
 .login-box {
     width: 323px;
     height: 449px;
-    
+
     color: $Colour-clear-blue;
     top: 50%;
     left: 50%;
@@ -11,7 +11,6 @@
     padding: 0;
   }
 
-  
   .login-box h1 {
     margin-top: 46px;
     padding: 0 0 20px;
@@ -20,34 +19,34 @@
     font-weight: 700;
     color: $Colour-dark-blue;
   }
-  
+
   .login-box label {
-    
+
     margin: 0;
     padding: 0;
     font-weight: bold;
     display: block;
-    
+
   }
-  
+
   .login-box input {
     width: 100%;
     margin-bottom: 20px;
-    
+
   }
-  
-  .login-box input[type="text"], .login-box input[type="password"] {
-    border: none;
-    border-bottom: 1px solid $Colour-orange;
-    background: transparent;
-    outline: none;
-    height: 40px;
-    color: $Colour-clear-blue;
-    font-family: $Font-family;
-    font-size: 14px;
-   
-  }
-  
+
+  // .login-box input[type="text"], .login-box input[type="password"] {
+  //   border: none;
+  //   border-bottom: 1px solid $Colour-orange;
+  //   background: transparent;
+  //   outline: none;
+  //   height: 40px;
+  //   color: $Colour-clear-blue;
+  //   font-family: $Font-family;
+  //   font-size: 14px;
+  // }
+
+
   .login-box input[type="submit"] {
     border: none;
     outline: none;
@@ -59,14 +58,14 @@
     border-radius: 50px;
     margin-top: 46px;
   }
-  
+
   .login-box input[type="submit"]:hover {
     cursor: pointer;
     background: $Colour-dark-blue;
     color: $Colour-orange;
-    
+
   }
-  
+
   .login-box a {
     font-family: $Font-family;
     font-size: 12px;
@@ -75,7 +74,7 @@
     line-height: 20px;
     color: $Colour-clear-blue;
   }
-  
+
   .login-box a:hover {
     color: $Colour-dark-blue;
   }
