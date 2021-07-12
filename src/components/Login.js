@@ -1,19 +1,21 @@
 import React, { useState } from 'react';
 import logo from "../img/logoOrange.png"
 import Input from './Input';
-import { naxios } from '../../src/Utilities';
+import axios from 'axios';
+import { Apiurl } from '../services/apirest';
+
 
 //import Button from './Button';
 
 const Login = () => {
 
-    const [ user, setUser ] = useState('');
+    const [ username, setUsername] = useState('');
     const [ password, setPassword ] = useState('');
     const [ passwordError, setPasswordError ] = useState(false);
 
     function handleChange(name, value) {
         if (name === 'usuario') {
-            setUser(value)
+            setUsername(value)
         }   else {
                 if(value.length < 6) {
                     setPasswordError(true);
@@ -25,10 +27,13 @@ const Login = () => {
     };
 
     function HandleSubmit() {
-        let account = { user, password }
-        if(account) {
+        //let url = Apiurl + 'auth'
+        let account = { username, password }
+        if(username && password) {
             console.log('account:', account)
-            naxios.post('https://cb9e26a7474b.ngrok.io/v1/login/')
+            axios.post(Apiurl, account)
+        // let url = Apiurl;
+        // axios.post(url)
                 .then( (data) => {console.log(data)} )
                 .catch( (err) => {console.log(err)} )
         }
@@ -63,7 +68,7 @@ const Login = () => {
                 param={passwordError}
                 className='regular-style'
                 />
-                {/* <Button /> */}
+
                 <input onClick={ HandleSubmit} type="submit" value="Log In" />
                 <a href="#">¿Olvidaste tu contraseña?</a>
 
