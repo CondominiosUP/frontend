@@ -22,10 +22,7 @@ function App() {
     return (
         <div>
             <BrowserRouter>
-<<<<<<< HEAD
-=======
                 {/*<Layout> */}
->>>>>>> feature/input
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route exact path="/login" component={Login} />
@@ -58,10 +55,7 @@ function App() {
                     }
 
                 </Switch>
-<<<<<<< HEAD
-=======
                 {/*</Layout>*/}
->>>>>>> feature/input
             </BrowserRouter>
         </div>
     )
